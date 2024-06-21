@@ -12,19 +12,7 @@ class ChatProvider extends ChangeNotifier {
     Message(
       text: "Hola...",
       fromWho: FromWho.me,
-    ),
-    Message(
-      text: "Cómo estás?",
-      fromWho: FromWho.me,
-    ),
-    Message(
-      text: "Cómo estás?",
-      fromWho: FromWho.me,
-    ),
-    Message(
-      text: "bien",
-      fromWho: FromWho.other,
-    ),
+    )
   ];
 
   Future<void> sendMessage(String message) async {

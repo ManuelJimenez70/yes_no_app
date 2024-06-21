@@ -18,10 +18,10 @@ class ChatScreen extends StatelessWidget {
             padding: EdgeInsets.all(4.0),
             child: CircleAvatar(
               backgroundImage: NetworkImage(
-                  'https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/426453242_25361791203468102_5589956760607498685_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeElQBRoYyBQitOfEZZnCeGhEhQojIPb2VASFCiMg9vZUCUVsDewkPnsDXtnfoMcmXzcRp50wbNdMLyT2v2CLLc7&_nc_ohc=wf8YAmQnbCgQ7kNvgFsXyH8&_nc_ht=scontent-bog2-1.xx&oh=00_AYBS7vmUiSs1PAY_ZoUX5sAgUUexA5ZFR9TMxeZermwHVA&oe=666AA0C2'),
+                  'https://www.zarla.com/images/zarla-l-1x1-2400x2400-20211122-m9ttfvtfbh37cmddppft.png?crop=1:1,smart&width=250&dpr=2'),
             ),
           ),
-          title: const Text('Amor ❤'),
+          title: const Text('Lola Chat'),
           centerTitle: false,
         ),
         body: _ChatView());
